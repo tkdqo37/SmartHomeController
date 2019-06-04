@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:orientation="vertical">
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" android:layout_weight="0"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1">
+        <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" android:layout_weight="0"/>
+        <Button
+                android:text="CONNECT"
+                android:backgroundTint="#A9D0F5"
+                android:fontFamily="@font/acv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/btnConnect" android:layout_weight="1"/>
+        <Button
+                android:text="DISCONNECT"
+                android:backgroundTint="#F6CEF5"
+                android:fontFamily="@font/acv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/btnDisconnect" android:layout_weight="1"/>
+        <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" android:layout_weight="0"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1">
+        <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+        <Button
+                android:text="LED ON"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/acv"
+                android:layout_height="match_parent" android:id="@+id/btnLedOn" android:layout_weight="1"/>
+        <Button
+                android:text="LED OFF"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#848484"
+                android:fontFamily="@font/acv"
+                android:layout_height="match_parent" android:id="@+id/btnLedOff" android:layout_weight="1"/>
+        <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" android:layout_weight="0"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1">
+        <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" android:layout_weight="0"/>
+        <Button
+                android:text="RED"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#F5A9BC"
+                android:fontFamily="@font/acv"
+                android:layout_height="match_parent" android:id="@+id/btnRed" android:layout_weight="1"/>
+        <Button
+                android:text="BLUE"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#8181F7"
+                android:fontFamily="@font/acv"
+                android:layout_height="match_parent" android:id="@+id/btnBlue" android:layout_weight="1"/>
+        <Button
+                android:text="GREEN"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#A9F5BC"
+                android:fontFamily="@font/acv"
+                android:layout_height="match_parent" android:id="@+id/btnGreen" android:layout_weight="1"/>
+        <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" android:layout_weight="0"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1">
+        <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" android:layout_weight="0"/>
+        <Button
+                android:text="OPEN THE DOOR"
+                android:backgroundTint="#F2F5A9"
+                android:fontFamily="@font/acv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btnOpenDoor" android:layout_weight="1"/>
+        <Button
+                android:text="CLOSE THE DOOR"
+                android:backgroundTint="#F781BE"
+                android:fontFamily="@font/acv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btnCloseDoor" android:layout_weight="1"/>
+        <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" android:layout_weight="0"/>
+    </LinearLayout>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" android:layout_weight="0"/>
+
+</LinearLayout>

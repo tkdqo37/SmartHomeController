@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+    <TextView
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="75dp" android:id="@+id/textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:text="Smart"
+            app:fontFamily="@font/acv" android:textSize="50sp"
+            android:textColor="@android:color/background_dark"/>
+    <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="50sp"
+            android:textStyle="bold" app:fontFamily="@font/acv"
+            android:textColor="@android:color/background_dark" android:text=" Home"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Space
+                android:layout_width="80dp"
+                android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView
+                android:text="Controler"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView4"
+                android:textSize="48sp" android:textColor="@android:color/background_dark"
+                app:fontFamily="@font/acv" android:textStyle="bold"/>
+        <Space
+                android:layout_width="80dp"
+                android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/smartphone" android:id="@+id/imageView2"/>
+    </LinearLayout>
+
+</LinearLayout>
